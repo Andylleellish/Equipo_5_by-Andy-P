@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+
+.black-container{
+    color: #F3F3F3;
+    background-color: black;
+    font-size: 0.625rem;
+    font-weight: 0.625rem;
+    line-height: 0.733rem;
+    height: 1.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 5.625rem;
+    padding-right: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.arg{
+    margin-left: 0.75rem;
+}
+
+header nav{
+    display: flex;
+    background-color: #F0A83E;
+    height: 4.125rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2.5rem;
+    padding-right: 3rem;
+    font-weight: 43.75rem;
+    font-size: 0.813rem;
+    line-height: 0.952rem;
+    color: #FFFFFF;
+}
+.menu img{
+    margin-left: 1.25rem;
+}
+
+.bowl{
+    width: 100vw;
+    height: 30.563rem;
+    margin-bottom: 1.563rem;
+}
+
+.info-image{
+    position: absolute;
+    top: 11.25rem;
+    right: 7.5rem;
+    text-align: center;
+}
+
+.info-image .grande{
+    width: 22.813rem;
+    height: 3.375rem;
+    border-radius: 0.3125rem;
+    background-color: #FFFFFF;
+    font-size: 1.875rem;
+    font-weight: 25rem;
+    line-height: 2.1975rem;
+    text-align: center;
+    padding: 0.4375rem;
+}
+
+.info-image .pequeño{
+    text-align: center;
+    font-size: 16px;
+    margin: 16px;
+}
+
+.info-image .comederos{
+    background-color: #F0A83E;
+    width: 8.8125rem;
+    height: 3.0625rem;
+    border-radius: 0.3125rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0.9375rem;
+    margin: auto;
+}
+
+.intro{
+    text-align: center;
+}
+
+.big-paw{
+    width: 4.1875rem;
+    height: 4.4375rem;
+}
+
+.intro .pol{
+    font-size: 2.5rem;
+    line-height: 2.93rem;
+}
+
+.intro p{
+    font-size: 0.9375rem;
+    color: #666666;
+    margin-top: 1.375rem;
+}
+
+.productos{
+    display: flex;
+    margin-top: 3.125rem;
+    justify-content: space-around;
+    margin-left: 5.9375rem;
+    margin-right: 5.9375rem;
+}
+
+.item{
+    width: 16.5625rem;
+    height: 19.5rem;
+    background-color: #FBFAF6;
+    text-align: center;
+}
+
+.objeto{
+    color: #3C2313;
+    font-size: 1.0625rem;
+    font-weight: 700;
+    line-height: 1.0987rem;
+    margin-bottom: 0.125rem;
+}
+
+.precio{
+    color: #F0A83E;
+    font-size: 1.0625rem;
+    font-weight: 700;
+    line-height: 1.0987rem;
+}
+
+.information{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.information h3{
+    font-size: 1.5625rem;
+    font-weight: 700;
+    line-height: 1.8313rem;
+    color: #3C2313;
+    margin-bottom: 1.5625rem;
+}
+
+.information p{
+    width: 21.25rem;
+    height: 2.5rem;
+    border-radius: 0.9375rem;
+    color: white;
+    font-weight: 400;
+    font-size: 0.5625rem;
+    background-color: #3C2313;
+    margin: 0.75rem auto;
+    text-align: left;
+    padding: 0.9375rem;
+}
+
+.information span{
+    display: inline-block;
+    width: 6.875rem;
+    height: 2.125rem;
+    border-radius: 0.9375rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1719rem;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    margin-top: 2.1875rem;   
+    margin-bottom: 4.6875rem;
+}
+
+.resetear{
+    background-color: #8A8787;
+}
+
+.enviar{
+    background-color: #F0A83E;
+    margin-left: 0.3125rem;
+}
+
+.suscripcion{
+    background-color: #F0A83E;
+    height: 3.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.initial-part{
+    display: flex;
+}
+
+.suscripcion img{
+    width: 2.4006rem;
+    height: 1.58rem;
+    margin-left: 1.875rem;
+
+}
+
+.suscripcion h2{
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    padding-top: 0.1875rem;
+    padding-left: 0.75rem;
+}
+
+.second-part{
+    display: flex;
+    align-items: center;
+}
+
+.second-part .correo-aca{
+    display: inline-block;
+    width: 16.9375rem;
+    height: 2.5rem;
+    border-radius: 0.9375rem;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 0.5625rem;
+    line-height: 0.6594rem;
+    color: #A0A0A0;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    padding-left: 0.5rem;
+}
+
+.second-part .suscribirme{
+    display: inline-block;
+    width: 4.375rem;
+    height: 2.125rem;
+    border-radius: 0.9375rem;
+    background-color: #3C2313;
+    font-size: 0.5625rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    color: #FFFFFF;
+    margin-right: 2.8125rem;
+    margin-left: 0.3125rem;
+}
+
+footer{
+    height: 17.75rem;
+    background-color: #3C2313;
+    display: flex;
+    row-gap: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 0.9375rem;
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uno .part{
+    display: flex;
+    margin: 15px;
+}
+
+.uno .part img{
+    width: 4.125rem;
+    height: 4.125rem;
+    border-radius: 3.125rem;
+}
+
+.uno .part h3{
+    font-size: 1.25rem;
+    line-height: 1.465rem;
+    color: #FFFFFF;
+}
+
+.uno .part p{
+    font-weight: 700;
+    font-size: 0.625rem;
+    line-height: 0.7325rem;
+    color: #8A8787;
+}
+
+.uno .part div{
+    margin-left: 1.5625rem;
+}
+
+.fornite{
+    left: 88%;
+    bottom: 650%;
+    width: 10.375rem;
+    height: 1.4375rem;
+}
+
+.ultimo{
+    height: 1.25rem;
+    background-color: #222222;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.625rem;
+    line-height: 0.7325rem;
+    color: #FFFFFF;
+    padding-top: 0.25rem;
+}
+.icon{
+    display: none;
+}
+.bowl2{
+    display: none;
+}
+.ocultar{
+    display: none;
+}
+
+@media (max-width: 720px){
+.black-container{
+display: none;
+}
+.icon{
+    display: flex;
+    
+}
+.icon i{
+    color: white;
+    font-size: 30px;
+    margin-right: 30px;
+
+}
+nav .menu{
+    display: none;
+}
+.bowl{
+    display: none;
+    
+}
+.bowl2{
+    display: block;
+    width: 100vw;
+    height: 28.563rem;
+    margin-bottom: 1.563rem;
+}
+.info-image{
+    top: 11.25rem;
+    right: 1.3rem;
+}
+.info-image .pequeño{
+    margin-left: 180px;
+}
+
+.info-image .comederos{
+    margin-left: 190px;
+}
+.ocultar{
+    display: flex;
+    flex-direction: column;
+}
+    .intro .pol{
+        display: none;
+
+    }
+    .productos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item{
+        margin: 20px;
+}
+.information h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.8313rem;
+    color: #3C2313;
+    margin-bottom: 1.5625rem;
+}
+
+.information p{
+    width: 19.25rem;
+    height: 2.5rem;
+    border-radius: 1.9375rem;
+    color: white;
+    font-weight: 400;
+    font-size: 0.5625rem;
+    background-color: #3C2313;
+    margin: 0.1 rem;
+    text-align: left;
+    padding: 1.5375rem;   
+}
+    .suscripcion{
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .initial-part{
+        align-items: center;
+        margin-right: 34px;
+        margin-top: -5px;
+    }
+    .second-part{
+        align-items: center;
+        margin-left: 44px;
+        margin-top: 20px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 20.75rem;
+        background-color: #3C2313;
+        align-items: center;
+    }
+    .ultimo{
+        height: 25px;
+        font-size: 13px;
+    }
+    }
